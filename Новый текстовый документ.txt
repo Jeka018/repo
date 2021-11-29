@@ -1,0 +1,12 @@
+let year = prompt('Какой сейчас год'); // какой год
+if (year / 4 == 0){
+console.log('Год високосный');
+}else if (year / 100 == 0){
+console.log('Год не високосный');
+} else if (year / 400 == 0){
+console.log('Год високосный');
+}else{
+console.log('Год не високосный');
+}
+
+Надо доделать!!!!
